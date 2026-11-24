@@ -1,0 +1,16 @@
+# runtime state: WhatsApp session, inbox, media, reminders, approvals
+state/
+# Whisper model (~1.5 GB, downloaded by setup.sh)
+models/
+# Python environment
+.venv/
+__pycache__/
+.DS_Store
+# private second backend (not published): linked-device bridge and its scripts
+bridge/
+poll_bridge.py
+send_bridge.py
+CLAUDE.local.md
+CLAUDE.md.orig
+# written by setup.sh on each machine
+.claude/
